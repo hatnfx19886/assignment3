@@ -1,0 +1,18 @@
+@media (max-width: 768px) {
+  #banner h1 {
+    font-size: 36px;
+  }
+  #nav-bar img {
+    display: none;
+  }
+  #job-info .container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .job-div {
+    grid-template-columns: 1fr;
+  }
+  .project-time {
+    gap: 0;
+  }
+}
